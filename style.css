@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+strong {
+  color: #22d4fd;
+}
