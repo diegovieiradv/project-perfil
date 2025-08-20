@@ -47,31 +47,37 @@ strong {
   color: #22d4fd;
 }
 
+h2 {
+  color: #f6f6f6;
+  font-family: "Krona One", sans-serif;
+  margin-top: 20px;
+}
 .apresentacao-botoes {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .apresentacao-botoes-link {
-  background-color: #22d4fd;
+  background-color: #000000;
   font-size: 24px;
+  border: 1px solid #22d4fd;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   margin-top: 32px;
   width: 280px;
-  height: 50px;
-  border: none;
+  height: 60px;
   text-align: center;
   border-radius: 16px;
 }
-
-.apresentacao-botoes-link a {
-  text-decoration: none;
+.apresentacao-botoes-link a:hover {
+  background-color: #22d4fd;
   color: #000000;
 }
-
-.apresentacao-botoes-link:hover {
-  opacity: 0.8;
+.apresentacao-botoes-link a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 img {
