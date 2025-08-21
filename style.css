@@ -62,22 +62,30 @@ h2 {
 .apresentacao-botoes-link {
   background-color: #000000;
   font-size: 24px;
-  border: 1px solid #22d4fd;
+  border: 2px solid #22d4fd;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   margin-top: 32px;
-  width: 280px;
+  width: 378px;
   height: 60px;
   text-align: center;
-  border-radius: 16px;
+  border-radius: 10px;
+  display: flex; /* garante que o texto centralize */
+  justify-content: center;
+  align-items: center;
 }
-.apresentacao-botoes-link a:hover {
-  background-color: #22d4fd;
-  color: #000000;
-}
+
 .apresentacao-botoes-link a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.apresentacao-botoes-link:hover {
+  background-color: #22d4fd;
+}
+
+.apresentacao-botoes-link:hover a {
+  color: #000000;
 }
 
 img {
