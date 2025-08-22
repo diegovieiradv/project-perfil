@@ -2,31 +2,62 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Meu-perfil</title>
   </head>
+
   <body>
     <header></header>
     <main class="apresentacao">
-      <section class="apresentacao-conteudo">
-        <h1>Eleve seu conhecimento digital a outro nível <strong>com um Front-end e Back-end de qualidade!</strong></h1>
-        <p>
-          Olá! Sou Diego Vieira, desenvolvedor Frontend com especialidade em <strong>React, HTML, CSS e JavaScript e outras tecnologias como Node.js, Banco de Dados SQL/NoSQL | Containers (Docker) & Orquestração (Kubernetes).</strong> estou aqui para aprender e mostrar oque eu sei e receber dicas também. Vamos conversar?
+      <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">
+          Eleve seu negócio digital a outro nível<strong
+            class="titulo-destaque"
+          >
+            com um Front-end e Back-end de qualidade!
+          </strong>
+        </h1>
+        <p class="apresentacao__conteudo__texto">
+          Olá! Sou Diego Vieira, desenvolvedor Front-end com especialidade em
+          <strong class="titulo-destaque">
+            React, HTML, CSS e JavaScript e outras Tecnologias como Node.js,
+            Banco de Dados SQL/NoSQL | Containers (Docker) & Orquestração
+            (Kubernetes)
+          </strong>
+          Estou aqui para aprender e mostrar oque eu aprendi nessa caminhada e
+          receber dicas também e colocar em prática boas ideias. Vamos
+          conversar?
         </p>
-            <div class="apresentacao-botoes">
-              <h2>Acesse minhas redes:</h2>
-              <button class="apresentacao-botoes-link">
-                  <a href="https://www.linkedin.com/in/diego-vieira-de-souza/" target="_blank"> <img src="assets/linkedin.png" alt=""> LinkedIn</a>
-              </button>
-              <button class="apresentacao-botoes-link">
-                <a href="https://github.com/diegovieiradv" target="_blank"> <img src="assets/github.png" alt="">GitHub</a>
-              </button>
-            </div>
+        <div class="apresentacao__links">
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+          <a
+            class="apresentacao__links__link"
+            href="https://github.com/diegovieiradv"
+          >
+            <img src="./assets/github.png" />
+            Github
+          </a>
+          <a
+            class="apresentacao__links__link"
+            href="https://www.linkedin.com/in/diego-vieira-de-souza/"
+          >
+            <img src="./assets/linkedin.png" />
+            linkedin
+          </a>
+        </div>
       </section>
-          <img src="./assets/Imagem.png" alt="Foto de perfil" />
+      <img
+        class="foto-perfil"
+        src="./assets/imagem.png"
+        alt="Foto programando"
+      />
     </main>
-    
-    <footer></footer>
-    <body>
+    <footer class="rodape">
+      <p>
+        &copy;Desencolvido por Diego Vieira 2025 Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
 </html>
