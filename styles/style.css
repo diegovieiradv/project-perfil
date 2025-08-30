@@ -20,6 +20,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--cor-secundaria);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body.fade-in {
+  opacity: 1;
 }
 
 .cabecalho {
