@@ -29,6 +29,22 @@ body {
   display: flex;
   gap: 80px;
 }
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--cor-secundaria);
+  cursor: pointer;
+}
+
+/* Ajuste dos links dentro do UL */
+.menu-links {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+}
+
 .cabecalho__menu__link {
   font-family: var(--fonte-secundaria);
   font-size: 1.5rem;
@@ -96,10 +112,11 @@ body {
 .apresentacao__links__navegacao:hover {
   background-color: var(--cor-hover);
 }
+
 .apresentacao__imagem {
-  width: 100%;
-  max-width: 300px; /* controla o tamanho */
+  width: 50%;
 }
+
 .rodape {
   color: var(--cor-primaria);
   padding: 24px;
@@ -124,13 +141,27 @@ body {
     width: auto;
   }
 }
-
 @media (max-width: 768px) {
   .cabecalho__menu {
     flex-direction: column;
     gap: 20px;
   }
+  .menu-toggle {
+    display: block; /* mostra o botão */
+  }
 
+  .menu-links {
+    display: none; /* esconde os links no celular */
+    flex-direction: column;
+    gap: 20px;
+    background: #000;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .menu-links.show {
+    display: flex; /* mostra quando clica no botão */
+  }
   .cabecalho__menu__link {
     font-size: 1.2rem;
   }
@@ -156,6 +187,9 @@ body {
     text-align: center;
   }
 
+  .apresentacao__links__subtitulo {
+    text-align: center;
+  }
   .apresentacao__links__navegacao {
     width: 100%;
     font-size: 1.2rem;

@@ -11,10 +11,16 @@
   <body>
     <header class="cabecalho">
       <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link" href="index.html">Home</a>
-        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
-        <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+        <!-- Botão hamburguer (só aparece no celular) -->
+        <button class="menu-toggle">☰</button>
+
+        <!-- Links do menu -->
+        <ul class="menu-links">
+          <li><a class="cabecalho__menu__link" href="#">Home</a></li>
+          <li><a class="cabecalho__menu__link" href="#">Sobre mim</a></li>
+          <li><a class="cabecalho__menu__link" href="#">Projetos</a></li>
+          <li><a class="cabecalho__menu__link" href="#">Currículo</a></li>
+        </ul>
       </nav>
     </header>
     <main class="apresentacao">
@@ -68,5 +74,6 @@
         &copy;Desenvolvido por Diego Vieira 2025 Todos os direitos reservados.
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
